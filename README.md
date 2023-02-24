@@ -6,7 +6,7 @@
 Screen Shots
 
 Home page:
-[Home page](./src/Home.png)
+![Home page](./src/Home.png)
 
 Result page:
-[Result page](./src/Result.png)
+![Result page](./src/Result.png)
