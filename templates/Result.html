@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>IPL Playes details</h1>
+
+    <p> Playe name   : {{name}}</p>
+    <p> Total Score  : {{res.0}}</p>
+    <p> Total balls  : {{res.1}}</p>
+    <p> Batting avg  : {{res.2}}</p>
+    <p> No of matches: {{res.3}}</p>
+    <p> Strike rate  : {{res.4}}</p>
+    <p> No of fours  : {{res.5}}</p>
+    <p> No of Sixes  : {{res.6}}</p>
+
+    <br>
+
+    <button><a href="{% url 'home' %}"> Back to Home</a></button>
+</body>
+</html>
