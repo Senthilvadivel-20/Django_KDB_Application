@@ -1,6 +1,6 @@
 # Django - KDB Application
 
-### This IPL players details dashboard. 
+### This is IPL players details dashboard. 
 #### Here you can enter players name and get the players batting statistics. This is just POC model to connect KDB+ with Django.
 
 Screen Shots
